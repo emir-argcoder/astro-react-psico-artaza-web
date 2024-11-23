@@ -1,0 +1,7 @@
+[build]
+  base = "psico-artaza-web"
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  NODE_VERSION = "16"
