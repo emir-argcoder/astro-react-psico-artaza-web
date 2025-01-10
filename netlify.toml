@@ -5,3 +5,7 @@
 
 [context.production.environment]
   NODE_VERSION = "16"
+
+[build.environment]
+  NODE_VERSION = "18.14.1"
+
