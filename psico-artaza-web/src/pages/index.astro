@@ -1,21 +1,27 @@
 ---
-import Header from "../components/Header.astro"
+import Header from "../components/NavBar.astro"
 import Hero from "../components/Hero.astro"
 import Form from "../components/Form.astro"
 import Footer from "../components/Footer.astro"
 import FloatingWhatsAppButton from "../components/FloatingWhatsAppButton.astro"
+import Services from "../components/Services.astro"
 ---
 
 <html lang="es">
-  	<head>
-    	<meta charset="UTF-8">
-    	<title>Web de la Psicóloga</title>
-  	</head>
-  	<body>
-    	<Header />
-		<Hero />
-		<Form />
-		<Footer />
-		<FloatingWhatsAppButton />
-  	</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Psicól. Alina Artaza</title>
+  </head>
+  <body>
+    <Header />
+    <Hero />
+    <div id="servicios">
+      <Services />
+    </div>
+    <div id="contacto">
+      <Form />
+    </div>
+    <Footer />
+    <FloatingWhatsAppButton />
+  </body>
 </html>
