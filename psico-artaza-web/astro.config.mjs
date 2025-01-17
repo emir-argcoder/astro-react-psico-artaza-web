@@ -7,6 +7,6 @@ export default defineConfig({
   integrations: [react(), tailwind()],
   output: 'server',
   adapter: netlify({
-    assets: false  // Deshabilitar soporte experimental para "assets"
+    assets: true
   })
 });
